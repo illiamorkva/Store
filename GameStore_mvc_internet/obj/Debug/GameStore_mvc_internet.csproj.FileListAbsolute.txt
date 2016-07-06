@@ -1,0 +1,343 @@
+C:\Users\Илья\Documents\Visual Studio 2012\Projects\GameStore_mvc_internet\GameStore_mvc_internet\bin\GameStore_mvc_internet.dll
+C:\Users\Илья\Documents\Visual Studio 2012\Projects\GameStore_mvc_internet\GameStore_mvc_internet\bin\GameStore_mvc_internet.pdb
+C:\Users\Илья\Documents\Visual Studio 2012\Projects\GameStore_mvc_internet\GameStore_mvc_internet\bin\Antlr3.Runtime.dll
+C:\Users\Илья\Documents\Visual Studio 2012\Projects\GameStore_mvc_internet\GameStore_mvc_internet\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\Илья\Documents\Visual Studio 2012\Projects\GameStore_mvc_internet\GameStore_mvc_internet\bin\DotNetOpenAuth.Core.dll
+C:\Users\Илья\Documents\Visual Studio 2012\Projects\GameStore_mvc_internet\GameStore_mvc_internet\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\Илья\Documents\Visual Studio 2012\Projects\GameStore_mvc_internet\GameStore_mvc_internet\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\Илья\Documents\Visual Studio 2012\Projects\GameStore_mvc_internet\GameStore_mvc_internet\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\Илья\Documents\Visual Studio 2012\Projects\GameStore_mvc_internet\GameStore_mvc_internet\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\Илья\Documents\Visual Studio 2012\Projects\GameStore_mvc_internet\GameStore_mvc_internet\bin\EntityFramework.dll
+C:\Users\Илья\Documents\Visual Studio 2012\Projects\GameStore_mvc_internet\GameStore_mvc_internet\bin\Microsoft.Data.Edm.dll
+C:\Users\Илья\Documents\Visual Studio 2012\Projects\GameStore_mvc_internet\GameStore_mvc_internet\bin\Microsoft.Data.OData.dll
+C:\Users\Илья\Documents\Visual Studio 2012\Projects\GameStore_mvc_internet\GameStore_mvc_internet\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Илья\Documents\Visual Studio 2012\Projects\GameStore_mvc_internet\GameStore_mvc_internet\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\Илья\Documents\Visual Studio 2012\Projects\GameStore_mvc_internet\GameStore_mvc_internet\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\Илья\Documents\Visual Studio 2012\Projects\GameStore_mvc_internet\GameStore_mvc_internet\bin\Newtonsoft.Json.dll
+C:\Users\Илья\Documents\Visual Studio 2012\Projects\GameStore_mvc_internet\GameStore_mvc_internet\bin\System.Spatial.dll
+C:\Users\Илья\Documents\Visual Studio 2012\Projects\GameStore_mvc_internet\GameStore_mvc_internet\bin\System.Web.Helpers.dll
+C:\Users\Илья\Documents\Visual Studio 2012\Projects\GameStore_mvc_internet\GameStore_mvc_internet\bin\System.Web.Http.OData.dll
+C:\Users\Илья\Documents\Visual Studio 2012\Projects\GameStore_mvc_internet\GameStore_mvc_internet\bin\System.Web.Mvc.dll
+C:\Users\Илья\Documents\Visual Studio 2012\Projects\GameStore_mvc_internet\GameStore_mvc_internet\bin\System.Web.Optimization.dll
+C:\Users\Илья\Documents\Visual Studio 2012\Projects\GameStore_mvc_internet\GameStore_mvc_internet\bin\System.Web.Razor.dll
+C:\Users\Илья\Documents\Visual Studio 2012\Projects\GameStore_mvc_internet\GameStore_mvc_internet\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Илья\Documents\Visual Studio 2012\Projects\GameStore_mvc_internet\GameStore_mvc_internet\bin\System.Web.WebPages.dll
+C:\Users\Илья\Documents\Visual Studio 2012\Projects\GameStore_mvc_internet\GameStore_mvc_internet\bin\System.Web.WebPages.Razor.dll
+C:\Users\Илья\Documents\Visual Studio 2012\Projects\GameStore_mvc_internet\GameStore_mvc_internet\bin\WebGrease.dll
+C:\Users\Илья\Documents\Visual Studio 2012\Projects\GameStore_mvc_internet\GameStore_mvc_internet\bin\WebMatrix.Data.dll
+C:\Users\Илья\Documents\Visual Studio 2012\Projects\GameStore_mvc_internet\GameStore_mvc_internet\bin\WebMatrix.WebData.dll
+C:\Users\Илья\Documents\Visual Studio 2012\Projects\GameStore_mvc_internet\GameStore_mvc_internet\bin\EntityFramework.xml
+C:\Users\Илья\Documents\Visual Studio 2012\Projects\GameStore_mvc_internet\GameStore_mvc_internet\bin\Newtonsoft.Json.xml
+C:\Users\Илья\Documents\Visual Studio 2012\Projects\GameStore_mvc_internet\GameStore_mvc_internet\bin\System.Web.Helpers.xml
+C:\Users\Илья\Documents\Visual Studio 2012\Projects\GameStore_mvc_internet\GameStore_mvc_internet\bin\System.Web.Mvc.xml
+C:\Users\Илья\Documents\Visual Studio 2012\Projects\GameStore_mvc_internet\GameStore_mvc_internet\bin\System.Web.Razor.xml
+C:\Users\Илья\Documents\Visual Studio 2012\Projects\GameStore_mvc_internet\GameStore_mvc_internet\bin\System.Web.WebPages.xml
+C:\Users\Илья\Documents\Visual Studio 2012\Projects\GameStore_mvc_internet\GameStore_mvc_internet\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Илья\Documents\Visual Studio 2012\Projects\GameStore_mvc_internet\GameStore_mvc_internet\bin\System.Web.WebPages.Razor.xml
+C:\Users\Илья\Documents\Visual Studio 2012\Projects\GameStore_mvc_internet\GameStore_mvc_internet\bin\WebMatrix.Data.xml
+C:\Users\Илья\Documents\Visual Studio 2012\Projects\GameStore_mvc_internet\GameStore_mvc_internet\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\Илья\Documents\Visual Studio 2012\Projects\GameStore_mvc_internet\GameStore_mvc_internet\bin\WebMatrix.WebData.xml
+C:\Users\Илья\Documents\Visual Studio 2012\Projects\GameStore_mvc_internet\GameStore_mvc_internet\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\Илья\Documents\Visual Studio 2012\Projects\GameStore_mvc_internet\GameStore_mvc_internet\bin\DotNetOpenAuth.Core.xml
+C:\Users\Илья\Documents\Visual Studio 2012\Projects\GameStore_mvc_internet\GameStore_mvc_internet\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\Илья\Documents\Visual Studio 2012\Projects\GameStore_mvc_internet\GameStore_mvc_internet\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\Илья\Documents\Visual Studio 2012\Projects\GameStore_mvc_internet\GameStore_mvc_internet\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\Илья\Documents\Visual Studio 2012\Projects\GameStore_mvc_internet\GameStore_mvc_internet\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\Илья\Documents\Visual Studio 2012\Projects\GameStore_mvc_internet\GameStore_mvc_internet\bin\System.Web.Http.OData.xml
+C:\Users\Илья\Documents\Visual Studio 2012\Projects\GameStore_mvc_internet\GameStore_mvc_internet\bin\Microsoft.Data.Edm.xml
+C:\Users\Илья\Documents\Visual Studio 2012\Projects\GameStore_mvc_internet\GameStore_mvc_internet\bin\Microsoft.Data.OData.xml
+C:\Users\Илья\Documents\Visual Studio 2012\Projects\GameStore_mvc_internet\GameStore_mvc_internet\bin\System.Spatial.xml
+C:\Users\Илья\Documents\Visual Studio 2012\Projects\GameStore_mvc_internet\GameStore_mvc_internet\bin\ru\EntityFramework.resources.dll
+C:\Users\Илья\Documents\Visual Studio 2012\Projects\GameStore_mvc_internet\GameStore_mvc_internet\bin\ru\System.Web.Helpers.resources.dll
+C:\Users\Илья\Documents\Visual Studio 2012\Projects\GameStore_mvc_internet\GameStore_mvc_internet\bin\ru\System.Web.Mvc.resources.dll
+C:\Users\Илья\Documents\Visual Studio 2012\Projects\GameStore_mvc_internet\GameStore_mvc_internet\bin\ru\System.Web.Optimization.resources.dll
+C:\Users\Илья\Documents\Visual Studio 2012\Projects\GameStore_mvc_internet\GameStore_mvc_internet\bin\ru\System.Web.Razor.resources.dll
+C:\Users\Илья\Documents\Visual Studio 2012\Projects\GameStore_mvc_internet\GameStore_mvc_internet\bin\ru\System.Web.WebPages.resources.dll
+C:\Users\Илья\Documents\Visual Studio 2012\Projects\GameStore_mvc_internet\GameStore_mvc_internet\bin\ru\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Илья\Documents\Visual Studio 2012\Projects\GameStore_mvc_internet\GameStore_mvc_internet\bin\ru\System.Web.WebPages.Razor.resources.dll
+C:\Users\Илья\Documents\Visual Studio 2012\Projects\GameStore_mvc_internet\GameStore_mvc_internet\bin\ru\WebMatrix.Data.resources.dll
+C:\Users\Илья\Documents\Visual Studio 2012\Projects\GameStore_mvc_internet\GameStore_mvc_internet\bin\ru\Microsoft.Web.WebPages.OAuth.resources.dll
+C:\Users\Илья\Documents\Visual Studio 2012\Projects\GameStore_mvc_internet\GameStore_mvc_internet\bin\ru\WebMatrix.WebData.resources.dll
+C:\Users\Илья\Documents\Visual Studio 2012\Projects\GameStore_mvc_internet\GameStore_mvc_internet\bin\ru\System.Web.Http.OData.resources.dll
+C:\Users\Илья\Documents\Visual Studio 2012\Projects\GameStore_mvc_internet\GameStore_mvc_internet\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\Илья\Documents\Visual Studio 2012\Projects\GameStore_mvc_internet\GameStore_mvc_internet\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\Илья\Documents\Visual Studio 2012\Projects\GameStore_mvc_internet\GameStore_mvc_internet\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\Илья\Documents\Visual Studio 2012\Projects\GameStore_mvc_internet\GameStore_mvc_internet\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\Илья\Documents\Visual Studio 2012\Projects\GameStore_mvc_internet\GameStore_mvc_internet\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\Илья\Documents\Visual Studio 2012\Projects\GameStore_mvc_internet\GameStore_mvc_internet\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\Илья\Documents\Visual Studio 2012\Projects\GameStore_mvc_internet\GameStore_mvc_internet\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\Илья\Documents\Visual Studio 2012\Projects\GameStore_mvc_internet\GameStore_mvc_internet\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\Илья\Documents\Visual Studio 2012\Projects\GameStore_mvc_internet\GameStore_mvc_internet\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\Илья\Documents\Visual Studio 2012\Projects\GameStore_mvc_internet\GameStore_mvc_internet\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\Илья\Documents\Visual Studio 2012\Projects\GameStore_mvc_internet\GameStore_mvc_internet\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\Илья\Documents\Visual Studio 2012\Projects\GameStore_mvc_internet\GameStore_mvc_internet\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\Илья\Documents\Visual Studio 2012\Projects\GameStore_mvc_internet\GameStore_mvc_internet\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\Илья\Documents\Visual Studio 2012\Projects\GameStore_mvc_internet\GameStore_mvc_internet\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\Илья\Documents\Visual Studio 2012\Projects\GameStore_mvc_internet\GameStore_mvc_internet\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\Илья\Documents\Visual Studio 2012\Projects\GameStore_mvc_internet\GameStore_mvc_internet\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\Илья\Documents\Visual Studio 2012\Projects\GameStore_mvc_internet\GameStore_mvc_internet\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\Илья\Documents\Visual Studio 2012\Projects\GameStore_mvc_internet\GameStore_mvc_internet\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\Илья\Documents\Visual Studio 2012\Projects\GameStore_mvc_internet\GameStore_mvc_internet\bin\de\System.Spatial.resources.dll
+C:\Users\Илья\Documents\Visual Studio 2012\Projects\GameStore_mvc_internet\GameStore_mvc_internet\bin\es\System.Spatial.resources.dll
+C:\Users\Илья\Documents\Visual Studio 2012\Projects\GameStore_mvc_internet\GameStore_mvc_internet\bin\fr\System.Spatial.resources.dll
+C:\Users\Илья\Documents\Visual Studio 2012\Projects\GameStore_mvc_internet\GameStore_mvc_internet\bin\it\System.Spatial.resources.dll
+C:\Users\Илья\Documents\Visual Studio 2012\Projects\GameStore_mvc_internet\GameStore_mvc_internet\bin\ja\System.Spatial.resources.dll
+C:\Users\Илья\Documents\Visual Studio 2012\Projects\GameStore_mvc_internet\GameStore_mvc_internet\bin\ko\System.Spatial.resources.dll
+C:\Users\Илья\Documents\Visual Studio 2012\Projects\GameStore_mvc_internet\GameStore_mvc_internet\bin\ru\System.Spatial.resources.dll
+C:\Users\Илья\Documents\Visual Studio 2012\Projects\GameStore_mvc_internet\GameStore_mvc_internet\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\Илья\Documents\Visual Studio 2012\Projects\GameStore_mvc_internet\GameStore_mvc_internet\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\Илья\Documents\Visual Studio 2012\Projects\GameStore_mvc_internet\GameStore_mvc_internet\obj\Debug\GameStore_mvc_internet.dll
+C:\Users\Илья\Documents\Visual Studio 2012\Projects\GameStore_mvc_internet\GameStore_mvc_internet\obj\Debug\GameStore_mvc_internet.pdb
+C:\Users\Илья\Documents\Visual Studio 2012\Projects\GameStore_mvc_internet\GameStore_mvc_internet\bin\EntityFramework.SqlServer.dll
+C:\Users\Илья\Documents\Visual Studio 2012\Projects\GameStore_mvc_internet\GameStore_mvc_internet\bin\EntityFramework.SqlServer.xml
+C:\Users\Илья\Documents\Visual Studio 2012\Projects\GameStore_mvc_internet\GameStore_mvc_internet\bin\ru\EntityFramework.SqlServer.resources.dll
+C:\Users\Илья\Documents\Visual Studio 2012\Projects\GameStore_mvc_internet\GameStore_mvc_internet\bin\en\GameStore_mvc_internet.resources.dll
+C:\Users\Илья\Documents\Visual Studio 2012\Projects\GameStore_mvc_internet\GameStore_mvc_internet\bin\uk\GameStore_mvc_internet.resources.dll
+C:\Users\Илья\Documents\Visual Studio 2012\Projects\GameStore_mvc_internet\GameStore_mvc_internet\obj\Debug\GameStore_mvc_internet.Resources.Resource.resources
+C:\Users\Илья\Documents\Visual Studio 2012\Projects\GameStore_mvc_internet\GameStore_mvc_internet\obj\Debug\GameStore_mvc_internet.Resources.Resource.en.resources
+C:\Users\Илья\Documents\Visual Studio 2012\Projects\GameStore_mvc_internet\GameStore_mvc_internet\obj\Debug\GameStore_mvc_internet.Resources.Resource.uk.resources
+C:\Users\Илья\Documents\Visual Studio 2012\Projects\GameStore_mvc_internet\GameStore_mvc_internet\obj\Debug\GameStore_mvc_internet.csproj.GenerateResource.Cache
+C:\Users\Илья\Documents\Visual Studio 2012\Projects\GameStore_mvc_internet\GameStore_mvc_internet\obj\Debug\en\GameStore_mvc_internet.resources.dll
+C:\Users\Илья\Documents\Visual Studio 2012\Projects\GameStore_mvc_internet\GameStore_mvc_internet\obj\Debug\uk\GameStore_mvc_internet.resources.dll
+C:\Users\Илья\Documents\Visual Studio 2012\Projects\GameStore_mvc_internet\GameStore_mvc_internet\obj\Debug\GameStore_mvc_internet.csprojResolveAssemblyReference.cache
+C:\Users\Илья\Documents\Visual Studio 2012\Projects\GameStore_mvc_internet\GameStore_mvc_internet\bin\Elasticsearch.Net.dll
+C:\Users\Илья\Documents\Visual Studio 2012\Projects\GameStore_mvc_internet\GameStore_mvc_internet\bin\Nest.dll
+C:\Users\Илья\Documents\Visual Studio 2012\Projects\GameStore_mvc_internet\GameStore_mvc_internet\bin\Elasticsearch.Net.pdb
+C:\Users\Илья\Documents\Visual Studio 2012\Projects\GameStore_mvc_internet\GameStore_mvc_internet\bin\Elasticsearch.Net.xml
+C:\Users\Илья\Documents\Visual Studio 2012\Projects\GameStore_mvc_internet\GameStore_mvc_internet\bin\Nest.pdb
+C:\Users\Илья\Documents\Visual Studio 2012\Projects\GameStore_mvc_internet\GameStore_mvc_internet\bin\Nest.xml
+C:\Users\Илья\Desktop\GameStore_mvc_internet\GameStore_mvc_internet\bin\GameStore_mvc_internet.dll
+C:\Users\Илья\Desktop\GameStore_mvc_internet\GameStore_mvc_internet\bin\GameStore_mvc_internet.pdb
+C:\Users\Илья\Desktop\GameStore_mvc_internet\GameStore_mvc_internet\bin\en\GameStore_mvc_internet.resources.dll
+C:\Users\Илья\Desktop\GameStore_mvc_internet\GameStore_mvc_internet\bin\uk\GameStore_mvc_internet.resources.dll
+C:\Users\Илья\Desktop\GameStore_mvc_internet\GameStore_mvc_internet\bin\Antlr3.Runtime.dll
+C:\Users\Илья\Desktop\GameStore_mvc_internet\GameStore_mvc_internet\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\Илья\Desktop\GameStore_mvc_internet\GameStore_mvc_internet\bin\DotNetOpenAuth.Core.dll
+C:\Users\Илья\Desktop\GameStore_mvc_internet\GameStore_mvc_internet\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\Илья\Desktop\GameStore_mvc_internet\GameStore_mvc_internet\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\Илья\Desktop\GameStore_mvc_internet\GameStore_mvc_internet\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\Илья\Desktop\GameStore_mvc_internet\GameStore_mvc_internet\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\Илья\Desktop\GameStore_mvc_internet\GameStore_mvc_internet\bin\Elasticsearch.Net.dll
+C:\Users\Илья\Desktop\GameStore_mvc_internet\GameStore_mvc_internet\bin\EntityFramework.dll
+C:\Users\Илья\Desktop\GameStore_mvc_internet\GameStore_mvc_internet\bin\EntityFramework.SqlServer.dll
+C:\Users\Илья\Desktop\GameStore_mvc_internet\GameStore_mvc_internet\bin\Microsoft.Data.Edm.dll
+C:\Users\Илья\Desktop\GameStore_mvc_internet\GameStore_mvc_internet\bin\Microsoft.Data.OData.dll
+C:\Users\Илья\Desktop\GameStore_mvc_internet\GameStore_mvc_internet\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Илья\Desktop\GameStore_mvc_internet\GameStore_mvc_internet\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\Илья\Desktop\GameStore_mvc_internet\GameStore_mvc_internet\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\Илья\Desktop\GameStore_mvc_internet\GameStore_mvc_internet\bin\Nest.dll
+C:\Users\Илья\Desktop\GameStore_mvc_internet\GameStore_mvc_internet\bin\Newtonsoft.Json.dll
+C:\Users\Илья\Desktop\GameStore_mvc_internet\GameStore_mvc_internet\bin\System.Spatial.dll
+C:\Users\Илья\Desktop\GameStore_mvc_internet\GameStore_mvc_internet\bin\System.Web.Helpers.dll
+C:\Users\Илья\Desktop\GameStore_mvc_internet\GameStore_mvc_internet\bin\System.Web.Http.OData.dll
+C:\Users\Илья\Desktop\GameStore_mvc_internet\GameStore_mvc_internet\bin\System.Web.Mvc.dll
+C:\Users\Илья\Desktop\GameStore_mvc_internet\GameStore_mvc_internet\bin\System.Web.Optimization.dll
+C:\Users\Илья\Desktop\GameStore_mvc_internet\GameStore_mvc_internet\bin\System.Web.Razor.dll
+C:\Users\Илья\Desktop\GameStore_mvc_internet\GameStore_mvc_internet\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Илья\Desktop\GameStore_mvc_internet\GameStore_mvc_internet\bin\System.Web.WebPages.dll
+C:\Users\Илья\Desktop\GameStore_mvc_internet\GameStore_mvc_internet\bin\System.Web.WebPages.Razor.dll
+C:\Users\Илья\Desktop\GameStore_mvc_internet\GameStore_mvc_internet\bin\WebGrease.dll
+C:\Users\Илья\Desktop\GameStore_mvc_internet\GameStore_mvc_internet\bin\WebMatrix.Data.dll
+C:\Users\Илья\Desktop\GameStore_mvc_internet\GameStore_mvc_internet\bin\WebMatrix.WebData.dll
+C:\Users\Илья\Desktop\GameStore_mvc_internet\GameStore_mvc_internet\bin\Elasticsearch.Net.pdb
+C:\Users\Илья\Desktop\GameStore_mvc_internet\GameStore_mvc_internet\bin\Elasticsearch.Net.xml
+C:\Users\Илья\Desktop\GameStore_mvc_internet\GameStore_mvc_internet\bin\EntityFramework.xml
+C:\Users\Илья\Desktop\GameStore_mvc_internet\GameStore_mvc_internet\bin\EntityFramework.SqlServer.xml
+C:\Users\Илья\Desktop\GameStore_mvc_internet\GameStore_mvc_internet\bin\Nest.pdb
+C:\Users\Илья\Desktop\GameStore_mvc_internet\GameStore_mvc_internet\bin\Nest.xml
+C:\Users\Илья\Desktop\GameStore_mvc_internet\GameStore_mvc_internet\bin\Newtonsoft.Json.xml
+C:\Users\Илья\Desktop\GameStore_mvc_internet\GameStore_mvc_internet\bin\System.Web.Helpers.xml
+C:\Users\Илья\Desktop\GameStore_mvc_internet\GameStore_mvc_internet\bin\System.Web.Mvc.xml
+C:\Users\Илья\Desktop\GameStore_mvc_internet\GameStore_mvc_internet\bin\System.Web.Razor.xml
+C:\Users\Илья\Desktop\GameStore_mvc_internet\GameStore_mvc_internet\bin\System.Web.WebPages.xml
+C:\Users\Илья\Desktop\GameStore_mvc_internet\GameStore_mvc_internet\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Илья\Desktop\GameStore_mvc_internet\GameStore_mvc_internet\bin\System.Web.WebPages.Razor.xml
+C:\Users\Илья\Desktop\GameStore_mvc_internet\GameStore_mvc_internet\bin\WebMatrix.Data.xml
+C:\Users\Илья\Desktop\GameStore_mvc_internet\GameStore_mvc_internet\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\Илья\Desktop\GameStore_mvc_internet\GameStore_mvc_internet\bin\WebMatrix.WebData.xml
+C:\Users\Илья\Desktop\GameStore_mvc_internet\GameStore_mvc_internet\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\Илья\Desktop\GameStore_mvc_internet\GameStore_mvc_internet\bin\DotNetOpenAuth.Core.xml
+C:\Users\Илья\Desktop\GameStore_mvc_internet\GameStore_mvc_internet\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\Илья\Desktop\GameStore_mvc_internet\GameStore_mvc_internet\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\Илья\Desktop\GameStore_mvc_internet\GameStore_mvc_internet\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\Илья\Desktop\GameStore_mvc_internet\GameStore_mvc_internet\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\Илья\Desktop\GameStore_mvc_internet\GameStore_mvc_internet\bin\System.Web.Http.OData.xml
+C:\Users\Илья\Desktop\GameStore_mvc_internet\GameStore_mvc_internet\bin\Microsoft.Data.Edm.xml
+C:\Users\Илья\Desktop\GameStore_mvc_internet\GameStore_mvc_internet\bin\Microsoft.Data.OData.xml
+C:\Users\Илья\Desktop\GameStore_mvc_internet\GameStore_mvc_internet\bin\System.Spatial.xml
+C:\Users\Илья\Desktop\GameStore_mvc_internet\GameStore_mvc_internet\bin\ru\EntityFramework.resources.dll
+C:\Users\Илья\Desktop\GameStore_mvc_internet\GameStore_mvc_internet\bin\ru\EntityFramework.SqlServer.resources.dll
+C:\Users\Илья\Desktop\GameStore_mvc_internet\GameStore_mvc_internet\bin\ru\System.Web.Helpers.resources.dll
+C:\Users\Илья\Desktop\GameStore_mvc_internet\GameStore_mvc_internet\bin\ru\System.Web.Mvc.resources.dll
+C:\Users\Илья\Desktop\GameStore_mvc_internet\GameStore_mvc_internet\bin\ru\System.Web.Optimization.resources.dll
+C:\Users\Илья\Desktop\GameStore_mvc_internet\GameStore_mvc_internet\bin\ru\System.Web.Razor.resources.dll
+C:\Users\Илья\Desktop\GameStore_mvc_internet\GameStore_mvc_internet\bin\ru\System.Web.WebPages.resources.dll
+C:\Users\Илья\Desktop\GameStore_mvc_internet\GameStore_mvc_internet\bin\ru\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Илья\Desktop\GameStore_mvc_internet\GameStore_mvc_internet\bin\ru\System.Web.WebPages.Razor.resources.dll
+C:\Users\Илья\Desktop\GameStore_mvc_internet\GameStore_mvc_internet\bin\ru\WebMatrix.Data.resources.dll
+C:\Users\Илья\Desktop\GameStore_mvc_internet\GameStore_mvc_internet\bin\ru\Microsoft.Web.WebPages.OAuth.resources.dll
+C:\Users\Илья\Desktop\GameStore_mvc_internet\GameStore_mvc_internet\bin\ru\WebMatrix.WebData.resources.dll
+C:\Users\Илья\Desktop\GameStore_mvc_internet\GameStore_mvc_internet\bin\ru\System.Web.Http.OData.resources.dll
+C:\Users\Илья\Desktop\GameStore_mvc_internet\GameStore_mvc_internet\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\Илья\Desktop\GameStore_mvc_internet\GameStore_mvc_internet\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\Илья\Desktop\GameStore_mvc_internet\GameStore_mvc_internet\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\Илья\Desktop\GameStore_mvc_internet\GameStore_mvc_internet\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\Илья\Desktop\GameStore_mvc_internet\GameStore_mvc_internet\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\Илья\Desktop\GameStore_mvc_internet\GameStore_mvc_internet\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\Илья\Desktop\GameStore_mvc_internet\GameStore_mvc_internet\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\Илья\Desktop\GameStore_mvc_internet\GameStore_mvc_internet\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\Илья\Desktop\GameStore_mvc_internet\GameStore_mvc_internet\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\Илья\Desktop\GameStore_mvc_internet\GameStore_mvc_internet\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\Илья\Desktop\GameStore_mvc_internet\GameStore_mvc_internet\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\Илья\Desktop\GameStore_mvc_internet\GameStore_mvc_internet\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\Илья\Desktop\GameStore_mvc_internet\GameStore_mvc_internet\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\Илья\Desktop\GameStore_mvc_internet\GameStore_mvc_internet\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\Илья\Desktop\GameStore_mvc_internet\GameStore_mvc_internet\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\Илья\Desktop\GameStore_mvc_internet\GameStore_mvc_internet\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\Илья\Desktop\GameStore_mvc_internet\GameStore_mvc_internet\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\Илья\Desktop\GameStore_mvc_internet\GameStore_mvc_internet\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\Илья\Desktop\GameStore_mvc_internet\GameStore_mvc_internet\bin\de\System.Spatial.resources.dll
+C:\Users\Илья\Desktop\GameStore_mvc_internet\GameStore_mvc_internet\bin\es\System.Spatial.resources.dll
+C:\Users\Илья\Desktop\GameStore_mvc_internet\GameStore_mvc_internet\bin\fr\System.Spatial.resources.dll
+C:\Users\Илья\Desktop\GameStore_mvc_internet\GameStore_mvc_internet\bin\it\System.Spatial.resources.dll
+C:\Users\Илья\Desktop\GameStore_mvc_internet\GameStore_mvc_internet\bin\ja\System.Spatial.resources.dll
+C:\Users\Илья\Desktop\GameStore_mvc_internet\GameStore_mvc_internet\bin\ko\System.Spatial.resources.dll
+C:\Users\Илья\Desktop\GameStore_mvc_internet\GameStore_mvc_internet\bin\ru\System.Spatial.resources.dll
+C:\Users\Илья\Desktop\GameStore_mvc_internet\GameStore_mvc_internet\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\Илья\Desktop\GameStore_mvc_internet\GameStore_mvc_internet\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\Илья\Desktop\GameStore_mvc_internet\GameStore_mvc_internet\obj\Debug\GameStore_mvc_internet.Resources.Resource.resources
+C:\Users\Илья\Desktop\GameStore_mvc_internet\GameStore_mvc_internet\obj\Debug\GameStore_mvc_internet.Resources.Resource.en.resources
+C:\Users\Илья\Desktop\GameStore_mvc_internet\GameStore_mvc_internet\obj\Debug\GameStore_mvc_internet.Resources.Resource.uk.resources
+C:\Users\Илья\Desktop\GameStore_mvc_internet\GameStore_mvc_internet\obj\Debug\GameStore_mvc_internet.csproj.GenerateResource.Cache
+C:\Users\Илья\Desktop\GameStore_mvc_internet\GameStore_mvc_internet\obj\Debug\en\GameStore_mvc_internet.resources.dll
+C:\Users\Илья\Desktop\GameStore_mvc_internet\GameStore_mvc_internet\obj\Debug\uk\GameStore_mvc_internet.resources.dll
+C:\Users\Илья\Desktop\GameStore_mvc_internet\GameStore_mvc_internet\obj\Debug\GameStore_mvc_internet.dll
+C:\Users\Илья\Desktop\GameStore_mvc_internet\GameStore_mvc_internet\obj\Debug\GameStore_mvc_internet.pdb
+C:\Users\Илья\Desktop\GameStore_mvc_internet\GameStore_mvc_internet\obj\Debug\GameStore_mvc_internet.csprojResolveAssemblyReference.cache
+C:\Users\Илья\Desktop\GameStore_mvc_internet\GameStore_mvc_internet\bin\System.Net.Http.dll
+C:\Users\Илья\Desktop\GameStore_mvc_internet\GameStore_mvc_internet\bin\System.Net.Http.Formatting.dll
+C:\Users\Илья\Desktop\GameStore_mvc_internet\GameStore_mvc_internet\bin\System.Web.Http.dll
+C:\Users\Илья\Desktop\GameStore_mvc_internet\GameStore_mvc_internet\bin\System.Web.Http.WebHost.dll
+C:\Users\Илья\Desktop\GameStore_mvc_internet\GameStore_mvc_internet\bin\System.Net.Http.Formatting.xml
+C:\Users\Илья\Desktop\GameStore_mvc_internet\GameStore_mvc_internet\bin\System.Web.Http.xml
+C:\Users\Илья\Desktop\GameStore_mvc_internet\GameStore_mvc_internet\bin\System.Web.Http.WebHost.xml
+C:\Users\Илья\Desktop\GameStore_mvc_internet\GameStore_mvc_internet\bin\ru\System.Net.Http.Formatting.resources.dll
+C:\Users\Илья\Desktop\GameStore_mvc_internet\GameStore_mvc_internet\bin\ru\System.Web.Http.resources.dll
+C:\Users\Илья\Desktop\GameStore_mvc_internet\GameStore_mvc_internet\bin\ru\System.Web.Http.WebHost.resources.dll
+D:\GameStore_mvc_internet\GameStore_mvc_internet\bin\GameStore_mvc_internet.dll
+D:\GameStore_mvc_internet\GameStore_mvc_internet\bin\GameStore_mvc_internet.pdb
+D:\GameStore_mvc_internet\GameStore_mvc_internet\bin\en\GameStore_mvc_internet.resources.dll
+D:\GameStore_mvc_internet\GameStore_mvc_internet\bin\uk\GameStore_mvc_internet.resources.dll
+D:\GameStore_mvc_internet\GameStore_mvc_internet\bin\Antlr3.Runtime.dll
+D:\GameStore_mvc_internet\GameStore_mvc_internet\bin\DotNetOpenAuth.AspNet.dll
+D:\GameStore_mvc_internet\GameStore_mvc_internet\bin\DotNetOpenAuth.Core.dll
+D:\GameStore_mvc_internet\GameStore_mvc_internet\bin\DotNetOpenAuth.OAuth.Consumer.dll
+D:\GameStore_mvc_internet\GameStore_mvc_internet\bin\DotNetOpenAuth.OAuth.dll
+D:\GameStore_mvc_internet\GameStore_mvc_internet\bin\DotNetOpenAuth.OpenId.dll
+D:\GameStore_mvc_internet\GameStore_mvc_internet\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+D:\GameStore_mvc_internet\GameStore_mvc_internet\bin\Elasticsearch.Net.dll
+D:\GameStore_mvc_internet\GameStore_mvc_internet\bin\EntityFramework.dll
+D:\GameStore_mvc_internet\GameStore_mvc_internet\bin\EntityFramework.SqlServer.dll
+D:\GameStore_mvc_internet\GameStore_mvc_internet\bin\Microsoft.Data.Edm.dll
+D:\GameStore_mvc_internet\GameStore_mvc_internet\bin\Microsoft.Data.OData.dll
+D:\GameStore_mvc_internet\GameStore_mvc_internet\bin\Microsoft.Web.Infrastructure.dll
+D:\GameStore_mvc_internet\GameStore_mvc_internet\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+D:\GameStore_mvc_internet\GameStore_mvc_internet\bin\Microsoft.Web.WebPages.OAuth.dll
+D:\GameStore_mvc_internet\GameStore_mvc_internet\bin\Nest.dll
+D:\GameStore_mvc_internet\GameStore_mvc_internet\bin\Newtonsoft.Json.dll
+D:\GameStore_mvc_internet\GameStore_mvc_internet\bin\System.Net.Http.dll
+D:\GameStore_mvc_internet\GameStore_mvc_internet\bin\System.Net.Http.Formatting.dll
+D:\GameStore_mvc_internet\GameStore_mvc_internet\bin\System.Spatial.dll
+D:\GameStore_mvc_internet\GameStore_mvc_internet\bin\System.Web.Helpers.dll
+D:\GameStore_mvc_internet\GameStore_mvc_internet\bin\System.Web.Http.dll
+D:\GameStore_mvc_internet\GameStore_mvc_internet\bin\System.Web.Http.OData.dll
+D:\GameStore_mvc_internet\GameStore_mvc_internet\bin\System.Web.Http.WebHost.dll
+D:\GameStore_mvc_internet\GameStore_mvc_internet\bin\System.Web.Mvc.dll
+D:\GameStore_mvc_internet\GameStore_mvc_internet\bin\System.Web.Optimization.dll
+D:\GameStore_mvc_internet\GameStore_mvc_internet\bin\System.Web.Razor.dll
+D:\GameStore_mvc_internet\GameStore_mvc_internet\bin\System.Web.WebPages.Deployment.dll
+D:\GameStore_mvc_internet\GameStore_mvc_internet\bin\System.Web.WebPages.dll
+D:\GameStore_mvc_internet\GameStore_mvc_internet\bin\System.Web.WebPages.Razor.dll
+D:\GameStore_mvc_internet\GameStore_mvc_internet\bin\WebGrease.dll
+D:\GameStore_mvc_internet\GameStore_mvc_internet\bin\WebMatrix.Data.dll
+D:\GameStore_mvc_internet\GameStore_mvc_internet\bin\WebMatrix.WebData.dll
+D:\GameStore_mvc_internet\GameStore_mvc_internet\bin\Elasticsearch.Net.pdb
+D:\GameStore_mvc_internet\GameStore_mvc_internet\bin\Elasticsearch.Net.xml
+D:\GameStore_mvc_internet\GameStore_mvc_internet\bin\EntityFramework.xml
+D:\GameStore_mvc_internet\GameStore_mvc_internet\bin\EntityFramework.SqlServer.xml
+D:\GameStore_mvc_internet\GameStore_mvc_internet\bin\Nest.pdb
+D:\GameStore_mvc_internet\GameStore_mvc_internet\bin\Nest.xml
+D:\GameStore_mvc_internet\GameStore_mvc_internet\bin\Newtonsoft.Json.xml
+D:\GameStore_mvc_internet\GameStore_mvc_internet\bin\System.Net.Http.Formatting.xml
+D:\GameStore_mvc_internet\GameStore_mvc_internet\bin\System.Web.Helpers.xml
+D:\GameStore_mvc_internet\GameStore_mvc_internet\bin\System.Web.Http.xml
+D:\GameStore_mvc_internet\GameStore_mvc_internet\bin\System.Web.Http.WebHost.xml
+D:\GameStore_mvc_internet\GameStore_mvc_internet\bin\System.Web.Mvc.xml
+D:\GameStore_mvc_internet\GameStore_mvc_internet\bin\System.Web.Razor.xml
+D:\GameStore_mvc_internet\GameStore_mvc_internet\bin\System.Web.WebPages.xml
+D:\GameStore_mvc_internet\GameStore_mvc_internet\bin\System.Web.WebPages.Deployment.xml
+D:\GameStore_mvc_internet\GameStore_mvc_internet\bin\System.Web.WebPages.Razor.xml
+D:\GameStore_mvc_internet\GameStore_mvc_internet\bin\WebMatrix.Data.xml
+D:\GameStore_mvc_internet\GameStore_mvc_internet\bin\Microsoft.Web.WebPages.OAuth.xml
+D:\GameStore_mvc_internet\GameStore_mvc_internet\bin\WebMatrix.WebData.xml
+D:\GameStore_mvc_internet\GameStore_mvc_internet\bin\DotNetOpenAuth.AspNet.xml
+D:\GameStore_mvc_internet\GameStore_mvc_internet\bin\DotNetOpenAuth.Core.xml
+D:\GameStore_mvc_internet\GameStore_mvc_internet\bin\DotNetOpenAuth.OAuth.Consumer.xml
+D:\GameStore_mvc_internet\GameStore_mvc_internet\bin\DotNetOpenAuth.OAuth.xml
+D:\GameStore_mvc_internet\GameStore_mvc_internet\bin\DotNetOpenAuth.OpenId.xml
+D:\GameStore_mvc_internet\GameStore_mvc_internet\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+D:\GameStore_mvc_internet\GameStore_mvc_internet\bin\System.Web.Http.OData.xml
+D:\GameStore_mvc_internet\GameStore_mvc_internet\bin\Microsoft.Data.Edm.xml
+D:\GameStore_mvc_internet\GameStore_mvc_internet\bin\Microsoft.Data.OData.xml
+D:\GameStore_mvc_internet\GameStore_mvc_internet\bin\System.Spatial.xml
+D:\GameStore_mvc_internet\GameStore_mvc_internet\bin\ru\EntityFramework.resources.dll
+D:\GameStore_mvc_internet\GameStore_mvc_internet\bin\ru\EntityFramework.SqlServer.resources.dll
+D:\GameStore_mvc_internet\GameStore_mvc_internet\bin\ru\System.Net.Http.Formatting.resources.dll
+D:\GameStore_mvc_internet\GameStore_mvc_internet\bin\ru\System.Web.Helpers.resources.dll
+D:\GameStore_mvc_internet\GameStore_mvc_internet\bin\ru\System.Web.Http.resources.dll
+D:\GameStore_mvc_internet\GameStore_mvc_internet\bin\ru\System.Web.Http.WebHost.resources.dll
+D:\GameStore_mvc_internet\GameStore_mvc_internet\bin\ru\System.Web.Mvc.resources.dll
+D:\GameStore_mvc_internet\GameStore_mvc_internet\bin\ru\System.Web.Optimization.resources.dll
+D:\GameStore_mvc_internet\GameStore_mvc_internet\bin\ru\System.Web.Razor.resources.dll
+D:\GameStore_mvc_internet\GameStore_mvc_internet\bin\ru\System.Web.WebPages.resources.dll
+D:\GameStore_mvc_internet\GameStore_mvc_internet\bin\ru\System.Web.WebPages.Deployment.resources.dll
+D:\GameStore_mvc_internet\GameStore_mvc_internet\bin\ru\System.Web.WebPages.Razor.resources.dll
+D:\GameStore_mvc_internet\GameStore_mvc_internet\bin\ru\WebMatrix.Data.resources.dll
+D:\GameStore_mvc_internet\GameStore_mvc_internet\bin\ru\Microsoft.Web.WebPages.OAuth.resources.dll
+D:\GameStore_mvc_internet\GameStore_mvc_internet\bin\ru\WebMatrix.WebData.resources.dll
+D:\GameStore_mvc_internet\GameStore_mvc_internet\bin\ru\System.Web.Http.OData.resources.dll
+D:\GameStore_mvc_internet\GameStore_mvc_internet\bin\de\Microsoft.Data.Edm.resources.dll
+D:\GameStore_mvc_internet\GameStore_mvc_internet\bin\es\Microsoft.Data.Edm.resources.dll
+D:\GameStore_mvc_internet\GameStore_mvc_internet\bin\fr\Microsoft.Data.Edm.resources.dll
+D:\GameStore_mvc_internet\GameStore_mvc_internet\bin\it\Microsoft.Data.Edm.resources.dll
+D:\GameStore_mvc_internet\GameStore_mvc_internet\bin\ja\Microsoft.Data.Edm.resources.dll
+D:\GameStore_mvc_internet\GameStore_mvc_internet\bin\ko\Microsoft.Data.Edm.resources.dll
+D:\GameStore_mvc_internet\GameStore_mvc_internet\bin\ru\Microsoft.Data.Edm.resources.dll
+D:\GameStore_mvc_internet\GameStore_mvc_internet\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+D:\GameStore_mvc_internet\GameStore_mvc_internet\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+D:\GameStore_mvc_internet\GameStore_mvc_internet\bin\de\Microsoft.Data.OData.resources.dll
+D:\GameStore_mvc_internet\GameStore_mvc_internet\bin\es\Microsoft.Data.OData.resources.dll
+D:\GameStore_mvc_internet\GameStore_mvc_internet\bin\fr\Microsoft.Data.OData.resources.dll
+D:\GameStore_mvc_internet\GameStore_mvc_internet\bin\it\Microsoft.Data.OData.resources.dll
+D:\GameStore_mvc_internet\GameStore_mvc_internet\bin\ja\Microsoft.Data.OData.resources.dll
+D:\GameStore_mvc_internet\GameStore_mvc_internet\bin\ko\Microsoft.Data.OData.resources.dll
+D:\GameStore_mvc_internet\GameStore_mvc_internet\bin\ru\Microsoft.Data.OData.resources.dll
+D:\GameStore_mvc_internet\GameStore_mvc_internet\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+D:\GameStore_mvc_internet\GameStore_mvc_internet\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+D:\GameStore_mvc_internet\GameStore_mvc_internet\bin\de\System.Spatial.resources.dll
+D:\GameStore_mvc_internet\GameStore_mvc_internet\bin\es\System.Spatial.resources.dll
+D:\GameStore_mvc_internet\GameStore_mvc_internet\bin\fr\System.Spatial.resources.dll
+D:\GameStore_mvc_internet\GameStore_mvc_internet\bin\it\System.Spatial.resources.dll
+D:\GameStore_mvc_internet\GameStore_mvc_internet\bin\ja\System.Spatial.resources.dll
+D:\GameStore_mvc_internet\GameStore_mvc_internet\bin\ko\System.Spatial.resources.dll
+D:\GameStore_mvc_internet\GameStore_mvc_internet\bin\ru\System.Spatial.resources.dll
+D:\GameStore_mvc_internet\GameStore_mvc_internet\bin\zh-Hans\System.Spatial.resources.dll
+D:\GameStore_mvc_internet\GameStore_mvc_internet\bin\zh-Hant\System.Spatial.resources.dll
+D:\GameStore_mvc_internet\GameStore_mvc_internet\obj\Debug\GameStore_mvc_internet.Resources.Resource.resources
+D:\GameStore_mvc_internet\GameStore_mvc_internet\obj\Debug\GameStore_mvc_internet.Resources.Resource.en.resources
+D:\GameStore_mvc_internet\GameStore_mvc_internet\obj\Debug\GameStore_mvc_internet.Resources.Resource.uk.resources
+D:\GameStore_mvc_internet\GameStore_mvc_internet\obj\Debug\GameStore_mvc_internet.csproj.GenerateResource.Cache
+D:\GameStore_mvc_internet\GameStore_mvc_internet\obj\Debug\en\GameStore_mvc_internet.resources.dll
+D:\GameStore_mvc_internet\GameStore_mvc_internet\obj\Debug\uk\GameStore_mvc_internet.resources.dll
+D:\GameStore_mvc_internet\GameStore_mvc_internet\obj\Debug\GameStore_mvc_internet.dll
+D:\GameStore_mvc_internet\GameStore_mvc_internet\obj\Debug\GameStore_mvc_internet.pdb

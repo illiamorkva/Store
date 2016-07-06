@@ -1,0 +1,89 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#wrap{
+    min-height: 100%;
+   
+}
+a{
+    outline: none;
+    color: #000;
+    
+}
+ol, ul {
+    list-style: none;
+}
+header {
+    height: 200px;
+    outline: solid black 1px;
+    margin: 0 0 22px 0;
+    
+}
+.banners {
+    width: 960px;
+    height: 200px;
+    margin: 0 auto 20px auto;
+    overflow: hidden;
+    position: relative;
+    outline: solid black 1px;
+}
+.middle {
+    width: 960px;
+    margin: 0 auto;
+    padding: 0 0 216px 0;
+   
+}
+.middle-container-left {
+    width: 960px;
+    float: left;
+    
+}
+.right1 {
+    width: 239px;
+    float: right;
+ 
+}
+.info {
+    margin: 0 0 20px 0;
+}
+.info .infoTop {
+    height: 85px;
+    background: url(/Images/infotop.png) repeat-x;
+    
+}
+.info .infoTop .infoTitle {
+    padding: 6px 8px;
+    font-size: 24px;
+    color: #fff;
+    line-height: 25px;
+}
+.info .infoTop .infoTitle span {
+    display: block;
+    font-size: 30px;
+}
+.info .infoTop .infoMore {
+    padding: 0 8px;
+    text-align: right;
+    font-size: 13px;
+}
+.info .infoTop .infoMore a {
+    color: #fff;
+}
+.info .infoList > li > a > span {
+    display: block;
+    margin: 0 0 5px 0;
+    color: #333333;
+    font-size: 12px;
+}
+.info .infoList > li > a {
+    display: block;
+    padding: 8px;
+    font-size: 13px;
+    color: #3188cf;
+    text-decoration: none;
+    background: #f0f0f0;
+    line-height: 15px;
+}
+
+

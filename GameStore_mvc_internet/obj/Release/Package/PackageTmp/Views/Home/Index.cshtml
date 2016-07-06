@@ -1,0 +1,126 @@
+﻿@using GameStore_mvc_internet.Models
+@model NewsListGameViewModel
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="~/Content/newsStyle.css" rel="stylesheet" />
+    <title></title>
+</head>
+<body>
+    <div id="myCarousel" class="carousel slide" data-ride="carousel" style="width: 700px">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            @{
+              
+                DirectoryInfo dir1 = new DirectoryInfo(Server.MapPath(@"~/Images/Slider"));
+                var files1 = dir1.GetFiles();
+                int k = 0;
+                foreach (var c in files1)
+                {
+                    if (k == 0)
+                    {
+                <li data-target="#myCarousel" data-slide-to="@k" class="active"></li>
+                    }
+                    else
+                    {
+                <li data-target="#myCarousel" data-slide-to="@k"></li>
+                    }
+                    k++;
+                }
+            }
+        </ol>
+
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            @{
+              
+                DirectoryInfo dir = new DirectoryInfo(Server.MapPath(@"~/Images/Slider"));
+                var files = dir.GetFiles();
+                int i = 0;
+                foreach (var c in files)
+                {
+
+                    string src = "~/Images/Slider/" + c.Name;
+                    string classDiv = "item";
+                    if (i == 0)
+                    {
+                        classDiv += " active";
+                    }  
+                       
+                   
+                <div class="@classDiv">
+                    <img src="@Url.Content(src)" alt="">
+                </div>
+                    i++;
+                }
+            }
+        </div>
+
+
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+    </div>
+     <section class="middle">
+                <div class="middle-container-left">
+                    <aside class="right1">
+                        <div class="info" >
+                            <div class="infoTop">
+                                <div class="infoTitle">
+                                    <span>акции</span>
+                                    интернет-магазина
+                                </div>
+                                <div class="infoMore">
+                                    <a href="#">Все акции</a>
+                                </div>
+                            </div>
+                            <ul class="infoList">
+                                @foreach (var p in @Model.Shares)
+                                {
+                                <li>
+                                    <a href="#">
+                                        <span> @p.Date.ToString("dd-MM-yyyy")</span>
+                                        @p.Name
+                                    </a>
+                                </li>
+                                }
+                                
+                            </ul>
+                        </div>
+                         <div class="info" >
+                            <div class="infoTop">
+                                <div class="infoTitle">
+                                    <span>новости</span>
+                                    интернет-магазина
+                                </div>
+                                <div class="infoMore">
+                                    <a href="#">Все новости</a>
+                                </div>
+                            </div>
+                            <ul class="infoList">
+                                @foreach(var p in @Model.News)
+                                {
+                                <li>
+                                    <a href="#">
+                                        <span>@p.Date.ToString("dd-MM-yyyy")</span>    
+                                        @p.Name                         
+                                    </a>
+                                </li>
+                                }
+                            </ul>
+                        </div>
+                    </aside>
+
+                </div>
+            </section>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+</body>
+</html>

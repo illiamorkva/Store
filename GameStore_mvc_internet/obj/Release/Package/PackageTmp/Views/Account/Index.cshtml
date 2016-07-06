@@ -1,0 +1,182 @@
+﻿@*@model IEnumerable<GameStore_mvc_internet.Models.Game>*@
+@using GameStore_mvc_internet.Models
+@model NewsListGameViewModel
+@{
+    ViewBag.Title = "Админ панель: список товаров";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h3>Список игр</h3>
+        <div class="navbar-right" style="margin-top: -40px">
+            @using (Html.BeginForm("LogOff", "Account"))
+            {
+               @Html.AntiForgeryToken();
+                <input type="submit"
+                    class="btn btn-default"
+                    value="Выйти" />
+            }
+        </div>
+    </div>
+    <div class="panel-body">
+        <table class="table table-striped table-condensed table-bordered">
+            <tr>
+                <th class="text-right">ID</th>
+                <th>Название</th>
+                <th class="text-right">Цена</th>
+                <th class="text-center">Действия</th>
+            </tr>
+            @foreach (var item in Model.Games)
+            {
+                <tr>
+                    <td class="text-right">@item.GameId</td>
+                    <td>@Html.ActionLink(item.Name, "Edit", new { item.GameId })</td>
+                    <td class="text-right">@item.Price.ToString("# грн")</td>
+                    <td class="text-center">
+                        @using (Html.BeginForm("Delete", "Account"))
+                        {
+                            @Html.AntiForgeryToken();
+                            @Html.Hidden("GameId", item.GameId)
+                            <input type="submit"
+                                class="btn btn-default btn-xs"
+                                value="Удалить" />
+                        }
+                    </td>
+                </tr>
+            }
+        </table>
+    </div>
+    <div class="panel-footer">
+        @Html.ActionLink("Добавить игру", "Create", null,
+            new { @class = "btn btn-default" })
+    </div>
+</div>
+@*Слайдер*@
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h3>Редактирование слайдера</h3>
+    </div>
+    @using (Html.BeginForm("CreatePhotoSlider", "Account",
+        FormMethod.Post, new { enctype = "multipart/form-data" }))
+    {
+        
+        <div class="panel-body">
+            <table class="table table-striped table-condensed table-bordered">
+                <tr>
+                    <th>Название фото</th>
+                    <th class="text-center">Действия</th>
+                </tr>
+                @{
+        DirectoryInfo dir = new DirectoryInfo(Server.MapPath(@"~/Images/Slider"));
+        var files = dir.GetFiles();
+                }
+                @foreach (var item in files)
+                {
+                    <tr>
+                        <td class="text-left">@item.Name</td>
+                        <td class="text-center">
+                            @using (Html.BeginForm("DeletePhotoSlider", "Account"))
+                            {
+                                @Html.AntiForgeryToken();
+                                @Html.Hidden("PhotoName", item.Name)
+                                <input type="submit"
+                                    class="btn btn-default btn-xs"
+                                    value="Удалить" />
+                            }
+                        </td>
+                    </tr>
+                }
+            </table>
+        </div>
+        <div style="position: relative;">
+            <label>Картинка</label>
+            <a class='btn' href='javascript:;'>Выберите файл...
+                        <input type="file" name="Image" size="40"
+                            style="position: absolute; z-index: 2; top: 0; left: 0; filter: alpha(opacity=0); opacity: 0; background-color: transparent; color: transparent;"
+                            onchange='$("#upload-file-info").html($(this).val());'>
+            </a>
+            <span class='label label-info' id="upload-file-info"></span>
+        </div>
+        <div class="panel-footer">
+            <input type="submit" value="Добавить фото в слайдер" class="btn btn-primary" />
+
+        </div>
+    }
+</div>
+@*акции*@
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h3>Список акций магазина</h3>
+    </div>
+    <div class="panel-body">
+        <table class="table table-striped table-condensed table-bordered">
+            <tr>
+                <th class="text-left">ShareID</th>
+                <th>Название акции</th>
+                @*<th class="text-right">Цена</th>*@
+                <th class="text-center">Действия</th>
+            </tr>
+            @foreach (var item in Model.Shares)
+            {
+                <tr>
+                    <td class="text-left">@item.ShareId</td>
+                    <td>@Html.ActionLink(item.Name, "EditShare", new { item.ShareId })</td>
+                    @*<td class="text-right">@item.Price.ToString("# грн")</td>*@
+                    <td class="text-center">
+                        @using (Html.BeginForm("DeleteShare", "Account"))
+                        {
+                            @Html.AntiForgeryToken();
+                            @Html.Hidden("ShareId", item.ShareId)
+                            <input type="submit"
+                                class="btn btn-default btn-xs"
+                                value="Удалить" />
+                        }
+                    </td>
+                </tr>
+            }
+        </table>
+    </div>
+    <div class="panel-footer">
+        @Html.ActionLink("Добавить акцию", "CreateShare", null,
+            new { @class = "btn btn-default" })
+    </div>
+</div>
+@*новости*@
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h3>Список новостей магазина</h3>
+    </div>
+    <div class="panel-body">
+        <table class="table table-striped table-condensed table-bordered">
+            <tr>
+                <th class="text-left">NewsID</th>
+                <th>Название новости</th>
+                @*<th class="text-right">Цена</th>*@
+                <th class="text-center">Действия</th>
+            </tr>
+            @foreach (var item in Model.News)
+            {
+                <tr>
+                    <td class="text-left">@item.NewsId</td>
+                    <td>@Html.ActionLink(item.Name, "EditNews", new { item.NewsId })</td>
+                    @*<td class="text-right">@item.Price.ToString("# грн")</td>*@
+                    <td class="text-center">
+                        @using (Html.BeginForm("DeleteNews", "Account"))
+                        {
+                            @Html.AntiForgeryToken();
+                            @Html.Hidden("NewsId", item.NewsId)
+                            <input type="submit"
+                                class="btn btn-default btn-xs"
+                                value="Удалить" />
+                        }
+                    </td>
+                </tr>
+            }
+        </table>
+    </div>
+    <div class="panel-footer">
+        @Html.ActionLink("Добавить новость", "CreateNews", null,
+            new { @class = "btn btn-default" })
+    </div>
+</div>

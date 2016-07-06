@@ -1,0 +1,59 @@
+﻿@model GameStore_mvc_internet.Models.News
+@{
+    ViewBag.Title = "Админ панель: редактирование новости";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+            //если не нужна валидация на стороне клиента
+            //HtmlHelper.ClientValidationEnabled = false;
+            //HtmlHelper.UnobtrusiveJavaScriptEnabled = false;
+}
+
+<div class="panel">
+    <div class="panel-heading">
+        <h3>Редактирование новости «@Model.Name»</h3>
+    </div>
+
+    @using (Html.BeginForm("EditNews", "Account",
+        FormMethod.Post, new { enctype = "multipart/form-data" }))
+    {
+        @Html.AntiForgeryToken();
+        <div class="panel-body">
+            @Html.HiddenFor(m => m.NewsId)
+            @foreach (var property in ViewData.ModelMetadata.Properties)
+            {
+                switch (property.PropertyName)
+                {
+                    case "NewsId":
+                    case "Date":
+                    //case "ImageData":
+                    //case "ImageMimeType":
+                        // Ничего не делать
+                        break;
+                    default:
+                <div class="form-group">
+                    <label>@(property.DisplayName ?? property.PropertyName)</label>
+                    @if (property.PropertyName == "Description")
+                    {
+                        @Html.TextArea(property.PropertyName, null,
+                                    new { @class = "form-control", rows = 5 })
+                    }
+                    else
+                    {
+                        @Html.TextBox(property.PropertyName, null,
+                                    new { @class = "form-control" })
+                    }
+                    @Html.ValidationMessage(property.PropertyName)
+                </div>
+                    break;
+                }
+            }
+           
+        </div>
+        <div class="panel-footer">
+            <input type="submit" value="Сохранить" class="btn btn-primary" />
+            @Html.ActionLink("Отменить изменения и вернуться к списку", "Index", null, new
+            {
+                @class = "btn btn-default"
+            })
+        </div>
+    }
+</div>

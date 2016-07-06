@@ -1,0 +1,45 @@
+﻿@model IEnumerable<string>
+
+@{
+    bool horizontal = ((bool)(ViewContext.RouteData.Values["horizontalNav"] ?? false));
+    string wrapperClasses = horizontal ? "btn-group btn-group-sm btn-group-justified" : null;
+
+    bool queryAllItems = false;                        // для того, чтобы подсветка все категории была только при List и Page в строке запроса, и если категория не выбрана 
+    string queryString = Request.Url.PathAndQuery;
+    if ((queryString.IndexOf("/List", StringComparison.OrdinalIgnoreCase) >= 0) || (queryString.IndexOf("/Page", StringComparison.OrdinalIgnoreCase) >= 0))
+    {
+        queryAllItems = true;
+    }
+}
+
+<div class="@wrapperClasses">
+    @Html.RouteLink("Все товары", new
+        {
+            controller = "Home",
+            action = "List",
+            page = 1
+        },
+    new
+    {
+        @class = horizontal ? "btn btn-default btn-sm" :
+            "btn btn-block btn-default btn-lg"
+              + ((ViewBag.SelectedCategory == null && queryAllItems==true) ? " btn-primary" : "") //queryAllItems был ли запрос, если да, то выделяем категорию
+    })
+
+    @foreach (var link in Model)
+    {
+        @Html.RouteLink(link, new
+        {
+            controller = "Home",
+            action = "List",
+            category = link,
+            page = 1
+        }, new
+        {
+            @class = (horizontal ? "btn btn-default btn-sm"
+                : "btn btn-block btn-default btn-lg")
+                + (link == ViewBag.SelectedCategory ? " btn-primary" : "")
+        })
+    }
+
+</div>

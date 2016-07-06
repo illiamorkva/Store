@@ -1,0 +1,87 @@
+﻿@using GameStore_mvc_internet.Models;
+@model CommentsListGameViewModel
+@Scripts.Render("~/bundles/jquery")
+@Scripts.Render("~/scripts/jquery.unobtrusive-ajax.min.js")
+<script>
+    var isAjaxRequestPending = false;
+
+    $(document).ready(function () {
+        $('#Comment').keydown(function (e) {
+            if (e.keyCode == 13 && !isAjaxRequestPending) {
+                e.preventDefault();
+                $("#commentForm").submit();
+
+            }
+        });
+
+
+        $('#commentForm').submit(function (event) {
+            event.preventDefault();
+            if (document.getElementById('Comment').value.trim() === "" || document.getElementById('Author').value.trim() === "")
+                return;
+            document.getElementById('btnMessage').disabled = true;
+            isAjaxRequestPending = true;
+            var data = $(this).serialize();
+            var url = $(this).attr('action');
+            $.post(url, data, function (response) {
+                $('textarea').val('');
+                $('#Author').val('');
+                document.getElementById('btnMessage').disabled = false;
+                isAjaxRequestPending = false;
+                $('#comments').append(response);
+            });
+        });
+    });
+</script>
+<div class="well">
+    @if (Model.Game.ImageData != null)
+    {
+        <div class="pull-left" style="margin-right: 10px">
+            <img class="img-thumbnail" width="75" height="75"
+                 src="@Url.Action("GetImage", "Game",
+                new { Model.Game.GameId })" />
+        </div>
+    }
+
+    <h3>
+        <strong>@Model.Game.Name</strong>
+        <span class="pull-right label label-primary">@Model.Game.Price.ToString("# грн")</span>
+    </h3>
+    @using (Html.BeginForm("AddToCart", "Cart"))
+    {
+        <div class="pull-right">
+            @Html.Hidden("GameId", @Model.Game.GameId)
+            @Html.Hidden("returnUrl", Request.Url.PathAndQuery)
+            <input type="submit" class="btn btn-success" value="Добавить в корзину" />
+        </div>
+    }
+    <span class="lead">@Model.Game.Description</span>
+</div>
+
+<h4>Comments</h4>
+<div id="comments">
+    @foreach (var comment in Model.Comments)
+    {
+        Html.RenderPartial("AddComment", comment);
+    }
+</div>
+@using (Html.BeginForm("AddComment", "Home", FormMethod.Post, new { id = "commentForm" }))
+{
+    <br />
+    <div class="row">
+        <div class="col-md-4">
+            @Html.TextBox("Author", null, new { @class = "form-control" })
+        </div>
+    </div>
+    <br />
+    <div class="row">
+        <div class="col-md-6">
+            @Html.TextArea("Comment", null, new { @class = "form-control",rows = 5 })
+        </div>
+    </div>
+        
+    @Html.Hidden("GameId", Model.Game.GameId)
+    @Html.Hidden("returnUrl", Request.Url.PathAndQuery)
+    <br />
+    <input type="submit" id="btnMessage" value="Add Comment" class="btn btn-default navbar-btn" />
+}

@@ -1,0 +1,27 @@
+﻿@using GameStore_mvc_internet.Models
+@using GameStore_mvc_internet.HtmlHelpers
+@model SearchGamesListViewModel
+@{
+    ViewBag.Title = "Товары по запросу: " + Model.Term;
+}
+
+@if(@Model.Games.ToList().Count == 0)
+{
+     <h3 class="error">РЕЗУЛЬТАТЫ НЕ СООТВЕТСВУЮТ КРИТЕРИЯМ ПОИСКА </h3>
+}
+else
+{
+    <h2 class="error">РЕЗУЛЬТАТ ПОИСКА: "@Model.Term" </h2>
+}
+@foreach (var p in @Model.Games)
+{
+     @Html.Partial("GameSummarySearch", p)
+}
+@if(@Model.Games.ToList().Count > 0)
+{
+@*хелпер*@
+<div class="btn-group pull-right">
+     @Html.PageLinksSearch(Model.PagingInfo, x => Url.Action("Search", 
+        new { page = x, term = Model.Term })) 
+</div>
+}

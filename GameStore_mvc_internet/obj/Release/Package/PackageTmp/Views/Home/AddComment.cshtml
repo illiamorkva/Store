@@ -1,0 +1,16 @@
+﻿@using GameStore_mvc_internet.Models;
+@model Comment
+
+<div class="well" style="position: relative">
+    @*relative и absolute для отображения иконки удаления*@
+    @if (User.IsInRole("Admin"))
+    {
+        <a href=@Url.Action("DeleteComment", "Home", new { commentId = @Model.CommentId, returnUrl = Request.Url.PathAndQuery }) style="position:absolute; right:10px">
+            <img src="@Url.Content("~/Images/delete.png")" alt="delete"/>
+        </a>
+    }
+    <p>
+        @Model.Date<br />
+        <b>@(Model.Author + ":")</b> @Model.Description
+    </p>
+</div>

@@ -1,0 +1,28 @@
+﻿@using GameStore_mvc_internet.Models
+@model Game
+<div class="well">
+    @if (Model.ImageData != null)
+    {
+        <div class="pull-left" style="margin-right: 10px">
+            <img class="img-thumbnail" width="75" height="75"
+                 src="@Url.Action("GetImage", "Game",
+                new { Model.GameId })" />
+        </div>
+    }
+
+    <h3>
+        <strong>
+            @Html.ActionLink(@Model.Name, "Details", "Home",
+    new { gameId = @Model.GameId }, new { style = "color:black" })</strong>
+        <span class="pull-right label label-primary">@Model.Price.ToString("# грн")</span>
+    </h3>
+    @using (Html.BeginForm("AddToCart", "Cart"))
+    {
+        <div class="pull-right">
+            @Html.HiddenFor(x => x.GameId)
+            @Html.Hidden("returnUrl", Request.Url.PathAndQuery)
+            <input type="submit" class="btn btn-success" value="Добавить в корзину" />
+        </div>
+    }
+    <span class="lead">@Model.Description</span>
+</div>
