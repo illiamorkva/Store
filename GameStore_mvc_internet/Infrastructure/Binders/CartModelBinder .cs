@@ -1,15 +1,11 @@
 ﻿using GameStore_mvc_internet.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
 using System.Web.Mvc;
 
 namespace GameStore_mvc_internet.Infrastructure.Binders
 {
     public class CartModelBinder : IModelBinder
     {
-        private const string sessionKey = "Cart";
+        private const string SessionKey = "Cart";
 
         public object BindModel(ControllerContext controllerContext,
             ModelBindingContext bindingContext)
@@ -18,7 +14,7 @@ namespace GameStore_mvc_internet.Infrastructure.Binders
             Cart cart = null;
             if (controllerContext.HttpContext.Session != null)
             {
-                cart = (Cart)controllerContext.HttpContext.Session[sessionKey];
+                cart = (Cart)controllerContext.HttpContext.Session[SessionKey];
             }
 
             // Создать объект Cart если он не обнаружен в сеансе
@@ -27,7 +23,7 @@ namespace GameStore_mvc_internet.Infrastructure.Binders
                 cart = new Cart();
                 if (controllerContext.HttpContext.Session != null)
                 {
-                    controllerContext.HttpContext.Session[sessionKey] = cart;
+                    controllerContext.HttpContext.Session[SessionKey] = cart;
                 }
             }
 

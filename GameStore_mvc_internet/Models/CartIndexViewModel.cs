@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-
-namespace GameStore_mvc_internet.Models
+﻿namespace GameStore_mvc_internet.Models
 {
     public class CartIndexViewModel
     {

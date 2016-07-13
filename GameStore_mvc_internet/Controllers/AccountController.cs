@@ -1,12 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Transactions;
 using System.Web;
 using System.Web.Mvc;
-using System.Web.Security;
-using DotNetOpenAuth.AspNet;
-using Microsoft.Web.WebPages.OAuth;
 using WebMatrix.WebData;
 using GameStore_mvc_internet.Filters;
 using GameStore_mvc_internet.Models;
@@ -19,8 +14,8 @@ namespace GameStore_mvc_internet.Controllers
     [InitializeSimpleMembership]
     public class AccountController : Controller
     {
-        SqlConnection con;
-        string serverConnection = "Data Source=morkva;Initial Catalog=GameStore;Integrated Security=True";
+        private SqlConnection _con;
+        private string _serverConnection = "Data Source=morkva;Initial Catalog=GameStore;Integrated Security=True";
 
         private GameContext db = new GameContext();
         private NewsContext dbNews = new NewsContext();
@@ -137,7 +132,7 @@ namespace GameStore_mvc_internet.Controllers
                 }
                 db.SaveChanges();
 
-                TempData["message"] = string.Format("Изменения в игре \"{0}\" были сохранены", game.Name);
+                TempData["message"] = $"Изменения в игре \"{game.Name}\" были сохранены";
 
                 return RedirectToAction("Index");
             }
@@ -171,7 +166,7 @@ namespace GameStore_mvc_internet.Controllers
                 }
                 dbShare.SaveChanges();
 
-                TempData["message"] = string.Format("Изменения в акции \"{0}\" были сохранены", share.Name);
+                TempData["message"] = $"Изменения в акции \"{share.Name}\" были сохранены";
                 return RedirectToAction("Index");
             }
             else
@@ -204,7 +199,7 @@ namespace GameStore_mvc_internet.Controllers
                 }
                 dbNews.SaveChanges();
 
-                TempData["message"] = string.Format("Изменения в новости \"{0}\" были сохранены", news.Name);
+                TempData["message"] = $"Изменения в новости \"{news.Name}\" были сохранены";
                 return RedirectToAction("Index");
             }
             else
@@ -238,8 +233,7 @@ namespace GameStore_mvc_internet.Controllers
 
             if (dbEntry != null)
             {
-                TempData["message"] = string.Format("Акция \"{0}\" была удалена",
-                    dbEntry.Name);
+                TempData["message"] = $"Акция \"{dbEntry.Name}\" была удалена";
             }
             return RedirectToAction("Index");
         }
@@ -256,8 +250,7 @@ namespace GameStore_mvc_internet.Controllers
 
             if (dbEntry != null)
             {
-                TempData["message"] = string.Format("Новость \"{0}\" была удалена",
-                    dbEntry.Name);
+                TempData["message"] = $"Новость \"{dbEntry.Name}\" была удалена";
             }
             return RedirectToAction("Index");
         }
@@ -265,26 +258,25 @@ namespace GameStore_mvc_internet.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Delete(int gameId)
         {
-            serverConnection = System.Configuration.ConfigurationManager.ConnectionStrings["DefaultConnection"].ConnectionString;
+            _serverConnection = System.Configuration.ConfigurationManager.ConnectionStrings["DefaultConnection"].ConnectionString;
             Game dbEntry = db.Games.Find(gameId);
             if (dbEntry != null)
             {
                 db.Games.Remove(dbEntry);
                 db.SaveChanges();
-                con = new SqlConnection(serverConnection);
-                string comDelete = string.Format("DELETE from Comments WHERE  ShopId = @shopid;");
-                con.Open();
-                SqlCommand com = new SqlCommand(comDelete, con);
+                _con = new SqlConnection(_serverConnection);
+                string comDelete = "DELETE from Comments WHERE  ShopId = @shopid;";
+                _con.Open();
+                SqlCommand com = new SqlCommand(comDelete, _con);
                 com.Parameters.AddWithValue("shopid", gameId);
                 com.ExecuteNonQuery();
-                con.Close();
+                _con.Close();
 
             }
 
             if (dbEntry != null)
             {
-                TempData["message"] = string.Format("Игра \"{0}\" была удалена",
-                    dbEntry.Name);
+                TempData["message"] = $"Игра \"{dbEntry.Name}\" была удалена";
             }
             return RedirectToAction("Index");
         }
@@ -300,8 +292,7 @@ namespace GameStore_mvc_internet.Controllers
                 if (c.Name == photoName)
                 {
                     c.Delete();
-                    TempData["message"] = string.Format("Слайд \"{0}\" был удален",
-                  photoName);
+                    TempData["message"] = $"Слайд \"{photoName}\" был удален";
                 }
             }
 
@@ -315,13 +306,15 @@ namespace GameStore_mvc_internet.Controllers
         {
             if (image != null)
             {
-                string pic = System.IO.Path.GetFileName(image.FileName);
-                string path = System.IO.Path.Combine(Server.MapPath(@"~/Images/Slider"), pic);
+                string pic = Path.GetFileName(image.FileName);
+                if (pic != null)
+                {
+                    string path = Path.Combine(Server.MapPath(@"~/Images/Slider"), pic);
 
 
-                image.SaveAs(path);
-                TempData["message"] = string.Format("Слайд \"{0}\" был добавлен",
-                 pic);
+                    image.SaveAs(path);
+                }
+                TempData["message"] = $"Слайд \"{pic}\" был добавлен";
             }
             return RedirectToAction("Index");
         }
@@ -351,16 +344,16 @@ namespace GameStore_mvc_internet.Controllers
         [HttpPost]
         [AllowAnonymous]
         [ValidateAntiForgeryToken]
-        public ActionResult Login(string LoginTextBox, string PasswordTextBox)
+        public ActionResult Login(string loginTextBox, string passwordTextBox)
         {
             if (User.Identity.IsAuthenticated)
             {
                 RedirectToAction("Index");
 
             }
-            if (LoginTextBox != "" && PasswordTextBox != "")
+            if (loginTextBox != "" && passwordTextBox != "")
             {
-                if (ModelState.IsValid && WebSecurity.Login(LoginTextBox, PasswordTextBox, persistCookie: true))
+                if (ModelState.IsValid && WebSecurity.Login(loginTextBox, passwordTextBox, persistCookie: true))
                 {
                     return RedirectToAction("Index", "Account");
                 }

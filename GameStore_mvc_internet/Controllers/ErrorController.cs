@@ -1,7 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Linq;
 using System.Net;
 using System.Web;
 using System.Web.Mvc;
@@ -46,7 +44,8 @@ namespace GameStore_mvc_internet.Controllers
             var response = context.HttpContext.Response;
             using (StreamWriter file = new StreamWriter(Server.MapPath(@"~/Errors/log.txt"), true))
             {
-                file.WriteLine(string.Format("Ошибка {0} с описанием \"{1}\" произошла в {2}", response.StatusCode, response.StatusDescription, DateTime.Now));
+                file.WriteLine(
+                    $"Ошибка {response.StatusCode} с описанием \"{response.StatusDescription}\" произошла в {DateTime.Now}");
 
             }
         }

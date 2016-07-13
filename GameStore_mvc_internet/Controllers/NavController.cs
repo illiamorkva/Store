@@ -1,8 +1,6 @@
 ﻿using GameStore_mvc_internet.Models;
-using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Web;
 using System.Web.Mvc;
 
 namespace GameStore_mvc_internet.Controllers

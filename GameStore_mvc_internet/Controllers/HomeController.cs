@@ -1,12 +1,8 @@
 ﻿using GameStore_mvc_internet.Filters;
 using GameStore_mvc_internet.Models;
 using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Web;
 using System.Web.Mvc;
-using System.Web.Security;
-using WebMatrix.WebData;
 
 namespace GameStore_mvc_internet.Controllers
 {
@@ -18,7 +14,7 @@ namespace GameStore_mvc_internet.Controllers
         private ShareContext dbShare = new ShareContext();
         private CommentContext dbComment = new CommentContext();
 
-        public int pageSize = 4;
+        public int PageSize = 4;
 
         public ViewResult List(string category, int page = 1)
         {
@@ -27,12 +23,12 @@ namespace GameStore_mvc_internet.Controllers
                 Games = db.Games
                     .Where(p => category == null || p.Category == category)
                     .OrderBy(game => game.GameId)
-                    .Skip((page - 1) * pageSize)
-                    .Take(pageSize),
+                    .Skip((page - 1) * PageSize)
+                    .Take(PageSize),
                 PagingInfo = new PagingInfo
                 {
                     CurrentPage = page,
-                    ItemsPerPage = pageSize,
+                    ItemsPerPage = PageSize,
                     TotalItems = category == null ?
                     db.Games.Count() :
                     db.Games.Where(game => game.Category == category).Count()

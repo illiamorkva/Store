@@ -100,10 +100,10 @@ namespace GameStore_mvc_internet.Controllers
             Session["code"] = code;
             CaptchaImage captcha = new CaptchaImage(code, 110, 50);
 
-            this.Response.Clear();
-            this.Response.ContentType = "image/jpeg";
+            Response.Clear();
+            Response.ContentType = "image/jpeg";
 
-            captcha.Image.Save(this.Response.OutputStream, ImageFormat.Jpeg);
+            captcha.Image.Save(Response.OutputStream, ImageFormat.Jpeg);
 
             captcha.Dispose();
             return null;
@@ -111,7 +111,7 @@ namespace GameStore_mvc_internet.Controllers
 
         public ActionResult ChangeCulture(string lang)
         {
-            string returnUrl = Request.UrlReferrer.AbsolutePath;
+            string returnUrl = Request.UrlReferrer?.AbsolutePath;
 
             List<string> cultures = new List<string>() { "ru", "en", "uk" };
             if (!cultures.Contains(lang))

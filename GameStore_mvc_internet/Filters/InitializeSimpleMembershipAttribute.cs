@@ -5,7 +5,6 @@ using System.Threading;
 using System.Web.Mvc;
 using WebMatrix.WebData;
 using GameStore_mvc_internet.Models;
-using System.Web.Security;
 
 namespace GameStore_mvc_internet.Filters
 {

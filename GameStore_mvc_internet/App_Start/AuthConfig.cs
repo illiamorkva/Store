@@ -1,11 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using Microsoft.Web.WebPages.OAuth;
-using GameStore_mvc_internet.Models;
-
-namespace GameStore_mvc_internet
+﻿namespace GameStore_mvc_internet
 {
     public static class AuthConfig
     {

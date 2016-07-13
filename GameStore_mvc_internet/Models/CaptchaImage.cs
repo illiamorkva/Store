@@ -1,18 +1,15 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Drawing;
 using System.Drawing.Imaging;
-using System.Linq;
-using System.Web;
 
 namespace GameStore_mvc_internet.Models
 {
     public class CaptchaImage
     {
-        private string text; // текст капчи
-        private int width; // ширина картинки
-        private int height; // высота картинки
-        public Bitmap Image { get; set; } // само изображение капчи
+        private string text;
+        private int width;
+        private int height;
+        public Bitmap Image { get; set; }
 
         public CaptchaImage(string s, int width, int height)
         {
@@ -28,8 +25,8 @@ namespace GameStore_mvc_internet.Models
 
             Graphics g = Graphics.FromImage(bitmap);
             SolidBrush b = new SolidBrush(Color.FromArgb(16, 164, 210));
-            g.FillRectangle(b, 0, 0, this.width, this.height);
-            // отрисовка строки
+            g.FillRectangle(b, 0, 0, width, height);
+           
             g.DrawString(text, new Font("Arial", height / 2, FontStyle.Bold),
                                 Brushes.White, new RectangleF(0, 0, width, height));
 
